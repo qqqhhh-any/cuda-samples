@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file grid_block.cu...
+  
+  F:\Explore\cuda-samples\Freshman\2_grid_block>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Software\VisualStudio2019\IDE\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc142.pdb" -o F:\Explore\cuda-samples\Freshman\2_grid_block\x64\Debug\grid_block.cu.obj "F:\Explore\cuda-samples\Freshman\2_grid_block\grid_block.cu" 
+  grid_block.cu
+  tmpxft_0000b6bc_00000000-7_grid_block.cudafe1.cpp
+    正在创建库 F:\Explore\cuda-samples\x64\Debug\2_grid_block.lib 和对象 F:\Explore\cuda-samples\x64\Debug\2_grid_block.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  2_grid_block.vcxproj -> F:\Explore\cuda-samples\x64\Debug\2_grid_block.exe
